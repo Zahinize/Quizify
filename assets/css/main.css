@@ -105,6 +105,12 @@ a:hover {
 .bold {
   font-family: "opensans-regular", sans-serif
 }
+.invisible {
+  visibility: hidden
+}
+.visible {
+  visibility: visible
+}
 .github-ribbon {
   border: 0;
   position: absolute;
@@ -290,7 +296,7 @@ body:before {
   color: #fff
 }
 .thumbnail.thumbnail-active {
-  box-shadow: 0 0 10px #999 inset;
+  box-shadow: 0px 0px 3px #999 inset, 0px 0px 1px 5px #777;
 }
 .team.col-md-2 {
   width: 120px
@@ -369,18 +375,37 @@ body:before {
 .modal.quiz-rules .lead {
   padding-left: 10px;
 }
+.row.teams-wrap {
+  padding: 5px 0
+}
+
+/*FlipClock rules*/
+.clock-wrapper {
+  left: 40%;
+  position: absolute;
+  width: 200px
+}
+
+/*Sandwich collapse rules*/
+.sandwich-wrapper {
+  text-align: left;
+}
+.sandwich-wrapper .navbar-toggle {
+  float: none;
+  margin: 5px 0 10px;
+}
+.sandwich-wrapper .navbar-toggle .icon-bar {
+  background-color: #fff
+}
+.navbar-collapse {
+  box-shadow: none
+}
 
 /*Options button*/
 #enableAnswers {
   position: absolute;
   top: 8px;
   left: 20px;
-}
-.invisible {
-  visibility: hidden
-}
-.visible {
-  visibility: visible
 }
 
 /*Media Queries for responsiveness*/
@@ -415,9 +440,9 @@ body:before {
   }
 }
 
-/*FlipClock rules*/
-.clock-wrapper {
-  left: 40%;
-  position: absolute;
-  width: 200px
+@media (max-width: 550px) {
+  .clock-wrapper {
+    left: 28%
+  }
 }
+

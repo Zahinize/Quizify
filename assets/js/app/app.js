@@ -3,10 +3,11 @@ define(["text!tplBasePath/baseTemplate.html",
 	    "text!tplBasePath/endScreenTemplate.html",
 	    "text!tplBasePath/endScreenContentTemplate.html",
       "text!tplBasePath/updateTeamScoreTemplate.html",
-      "text!tplBasePath/initTemplate.html"
-	    ], function(baseTpl, engLangTpl, endScreenTpl, endScreenContentTpl, updateTeamScoreTpl, initTpl) {
+      "text!tplBasePath/initTemplate.html",
+      "app/bufferLoader"
+	    ], function(baseTpl, engLangTpl, endScreenTpl, endScreenContentTpl, updateTeamScoreTpl, initTpl, bufferLoader) {
 
-  var app = function (baseTpl, engLangTpl, endScreenTpl, endScreenContentTpl, updateTeamScoreTpl, initTpl) {
+  var app = function (baseTpl, engLangTpl, endScreenTpl, endScreenContentTpl, updateTeamScoreTpl, initTpl, bufferLoader) {
     var _data = null,
 		_curQuesIdx = 0,
 		_corAnsIdx = null,
@@ -30,6 +31,10 @@ define(["text!tplBasePath/baseTemplate.html",
   	    _onNextClicked();
   	  }, 100);
     };
+
+  var _initTooltips = function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  };
 	
 	var _loadData = function () {
     $.ajax({
@@ -42,7 +47,7 @@ define(["text!tplBasePath/baseTemplate.html",
 	    console.log(_data);
 		  _setLclData();
 
-	    var qtnTemplate = _.template("<li class='numbers'><button type='button' class='btn btn-default' data-toggle='modal' data-target='#updateScore'><span class='glyphicon glyphicon-edit'></span></button></li> <li class='numbers'>Questions: <span class='num-cur'><%=obj.current%></span> <span class='num-total'>/ <%=obj.total%></span></li>");
+	    var qtnTemplate = _.template("<li id='update-score' title='Update Team Score' class='numbers'><button type='button' class='btn btn-default' data-toggle='modal' data-target='#updateScore'><span class='glyphicon glyphicon-edit'></span></button></li> <li class='numbers'><span class='ques-text'>Q:</span> <span class='num-cur'><%=obj.current%></span> <span class='num-total'>/ <%=obj.total%></span></li>");
 	    var baseTemplate = _.template(baseTpl);
 	    var compiledBaseTpl = baseTemplate({obj: _data});
       var updateScoreTpl = _.template(updateTeamScoreTpl)();
@@ -96,6 +101,7 @@ define(["text!tplBasePath/baseTemplate.html",
       }
 
 	  _showNextNum();
+    _initTooltips();
 	};
 	
 	var _computeResult = function ($target) {
@@ -230,6 +236,11 @@ define(["text!tplBasePath/baseTemplate.html",
 	  
 	  $(".options-wrap > .options > .thumbnail").removeClass("invisible");
     _initFlipClock();
+
+    _.delay(function () {
+      $target.addClass("disabled").prop("disabled", true);
+    }, 50);
+
 	};
 
   var _initFlipClock = function () {
@@ -266,5 +277,5 @@ define(["text!tplBasePath/baseTemplate.html",
 	  _initialize();
   };
   
-  return new app(baseTpl, engLangTpl, endScreenTpl, endScreenContentTpl, updateTeamScoreTpl, initTpl);
+  return new app(baseTpl, engLangTpl, endScreenTpl, endScreenContentTpl, updateTeamScoreTpl, initTpl, bufferLoader);
 });

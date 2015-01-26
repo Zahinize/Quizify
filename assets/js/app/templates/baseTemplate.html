@@ -2,7 +2,7 @@
   <div class="cover-container">
     <header class="masthead clearfix">
 	  <div class="inner">
-	    <h3 class="masthead-brand">Demo Quiz</h3>
+	    <h3 class="masthead-brand">Quiz</h3>
 	    <div class="clock-wrapper">
 	      <div class='clock'></div>
 	    </div>
@@ -10,12 +10,21 @@
 		</ul>
 	  </div>
 	</header>
+
+	<div class="inner cover sandwich-wrapper">
+	  <button class="navbar-toggle collapsed btn btn-default" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	</div>
 	
-	<div class="inner cover">
+	<div class="inner cover team-score-wrapper collapse navbar-collapse bs-navbar-collapse">
 	  <div class="row teams-wrap">
 	    <% _.each(obj.teams, function (team, idx) { %>
 		  <div id="<%=team.id%>" class="col-md-2 team">
-		    <div class="thumbnail">
+		    <div data-toggle="tooltip" data-placement="top" title="<%=team.name%>" class="thumbnail">
 			  <div class="caption">
 			    <h5><%=team.abbr%></h5>
 			    <p><span class="label label-default score">0</p>
