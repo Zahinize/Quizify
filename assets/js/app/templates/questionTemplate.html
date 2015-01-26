@@ -1,0 +1,76 @@
+    <% var quesTypeArr = [
+      {
+        id: "eng_lang",
+        name: "ENGLISH LANGUAGE SECTION"
+      },
+      {
+        id: "sports",
+        name: "SPORTS SECTION"
+      },
+      {
+        id: "gk",
+        name: "GENERAL KNOWLEDGE SECTION"
+      },
+      {
+        id: "cur_aff",
+        name: "CURRENT AFFAIRS SECTION"
+      },
+      {
+      	id: "big_bumper",
+      	name: "BIG BUMPER QUESTION!"
+      }
+    ];
+    
+    var titleArr = _.where(quesTypeArr, {id: obj.type});
+    %>
+
+<div class="question">
+  <header class="page-header content-header">
+    <button type="button" id="enableAnswers" class="btn btn-default btn-lg enable-answers"><span class="glyphicon glyphicon-share-alt"></span></button>
+	<h3><%=titleArr[0].name%></h3>
+  </header>
+  <p class="lead bold text-center"><%=obj.question%></p>
+  <p class="options-container">
+    <div class="row options-wrap">
+	
+	  <div id="options-a" data-idx="0" class="col-md-6 options indent">
+	    <div class="thumbnail">
+		  <div class="caption">
+		    <h5><%=obj.answers[0]%></h5>
+		  </div>
+		</div>
+	  </div>
+	  <div id="options-b" data-idx="1" class="col-md-6 options">
+	    <div class="thumbnail">
+		  <div class="caption">
+		    <h5><%=obj.answers[1]%></h5>
+		  </div>
+		</div>
+	  </div>
+	  <div id="options-c" data-idx="2" class="col-md-6 options indent">
+	    <div class="thumbnail">
+		  <div class="caption">
+		    <h5><%=obj.answers[2]%></h5>
+		  </div>
+		</div>
+	  </div>
+	  <div id="options-d" data-idx="3" class="col-md-6 options">
+	    <div class="thumbnail">
+		  <div class="caption">
+		    <h5><%=obj.answers[3]%></h5>
+		  </div>
+		</div>
+	  </div>
+	  
+	</div>
+  </p>
+  <p class="submit-btns text-center">
+    <button id="submit" class="btn btn-lg btn-default submit" data-loading-text="Submitting..." autocomplete="off">
+	  Submit
+	</button>
+    <button id="next" class="btn btn-lg btn-default next" data-loading-text="Next Question..." autocomplete="off">
+	  Next
+      <span class="glyphicon glyphicon-chevron-right"></span>
+	</button>
+  </p>
+</div>

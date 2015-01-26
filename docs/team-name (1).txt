@@ -1,0 +1,45 @@
+
+Alchemists - team-a - 180 (Qualified)
+
+The Invincibles - team-b - 70 (Knocked Out)
+
+The Enchanters - team-c - 240 (Qualified)
+
+Mustangs - team-d - 100 (Knocked Out)
+
+Titans of Trivia - team-e - 240 (Qualified)
+
+Royal Rangers - team-f - 200 (Qualified)
+
+Athena - team-g - 140 (Knocked Out)
+
+/*******************Round 2 Teams**************************************/
+
+Gandhi Giri - team-a - 120 
+Destructors - team-b - 160 (Qualified)
+Mind Readers - team-c - 90
+Axis of Ignorance - team-d - -130
+Invictus - team-e - 240 (Qualified)
+Bounty Hunters - team-f - 80
+Chandramas - team-g - 140 (Qualified)
+
+/*****************Round 1 Individuals*************************/
+Nischay Mishra - 60
+Sagar - 100 Q
+Vandana - 60
+Shreeta - 100
+Ashish - 30
+Arnav - 180
+Anshu - 120
+Ramandeep - 100 Q
+
+/*************Round 2 Individuals***************/
+Aniruddha Deb - 130 Q
+Dinesh Mandal - 160 Q
+Manish Sharma -  -150
+Shailesh Tyagi - 40
+Bhaskar Pandey - 20
+Ritu Aggarwal - 80 Q
+Prabhdeep Singh - 80 Q
+Ravi Kumar - 60
+

@@ -1,0 +1,686 @@
+{
+    "teams": [
+        {
+            "name": "Alchemists",
+            "abbr": "ALC",
+            "id": "team-a",
+            "score": 0
+        },
+        {
+            "name": "The Enchanters",
+            "abbr": "TEH",
+            "id": "team-b",
+            "score": 0
+        },
+        {
+            "name": "Titans of Trivia",
+            "abbr": "TOT",
+            "id": "team-c",
+            "score": 0
+        },
+        {
+            "name": "Royal Rangers",
+            "abbr": "ROR",
+            "id": "team-d",
+            "score": 0
+        },
+        {
+            "name": "Destructors",
+            "abbr": "DST",
+            "id": "team-e",
+            "score": 0
+        },
+        {
+            "name": "Invictus",
+            "abbr": "IVC",
+            "id": "team-f",
+            "score": 0
+        },
+        {
+            "name": "Chandramas",
+            "abbr": "CDM",
+            "id": "team-g",
+            "score": 0
+        }
+    ],
+    "data": [
+        {
+            "type": "eng_lang",
+            "question": "Choose the appropriate option for the following idioms: To play second fiddle",
+            "answers": [
+                "To be happy, cheerful and healthy",
+                "To reduce importance of one's senior",
+                "To support the role and view of another person",
+                "To do backseat driving..."
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-a"
+        },
+        {
+            "type": "eng_lang",
+            "question": "There are times when you must decide and take the bull by the horns.",
+            "answers": [
+                "make the right decision",
+                "make a bold decision",
+                "make the wrong decision",
+                "make a final decision"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-b"
+        },
+        {
+            "type": "eng_lang",
+            "question": "No-one ever mentions him because he's regarded as the black sheep of the family.",
+            "answers": [
+                "the one with a sense of humour",
+                "the one who is always late",
+                "the one with a bad reputation",
+                "the one who never washes"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-c"
+        },
+        {
+            "type": "eng_lang",
+            "question": "I shouldn't go outside without a raincoat because it's raining cats and dogs.",
+            "answers": [
+                "it's just started to rain",
+                "it's raining very heavily",
+                "it's going to rain",
+                "it's raining a little"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-d"
+        },
+        {
+            "type": "eng_lang",
+            "question": "You shouldn't sign there I think he's about to make a monkey out of you.",
+            "answers": [
+                "to make a fool of you",
+                "to make you feel stupid",
+                "to make you lose money",
+                "to make you lose interest"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-e"
+        },
+        {
+            "type": "eng_lang",
+            "question": "It's a lovely house and very big but nobody uses it so it's a bit of a white elephant.",
+            "answers": [
+                "something very beautiful and useful",
+                "something very cheap and useless",
+                "something very big and useful",
+                "something very expensive and useless"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-f"
+        },
+        {
+            "type": "eng_lang",
+            "question": "When the business folded, he took the lion's share of the assets.",
+            "answers": [
+                "the easiest part",
+                "the smallest part",
+                "the biggest part",
+                "the only part"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-g"
+        },
+        {
+            "type": "eng_lang",
+            "question": "The company had its own code of ....... in these matters.",
+            "answers": [
+                "behaviour",
+                "practice",
+                "dealing",
+                "attitude"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-a"
+        },
+        {
+            "type": "eng_lang",
+            "question": "This is a ....... example of what not to do.",
+            "answers": [
+                "critical",
+                "pure",
+                "simple",
+                "prime"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-b"
+        },
+        {
+            "type": "eng_lang",
+            "question": "Job losses are mainly in the ....... sectors of the industry.",
+            "answers": [
+                "high-collar",
+                "stiff-collar",
+                "red-collar",
+                "blue-collar"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-c"
+        },
+        {
+            "type": "eng_lang",
+            "question": "The circular will contain ....... financial information to help investors.",
+            "answers": [
+                "key",
+                "obvious",
+                "intelligent",
+                "noted"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-d"
+        },
+        {
+            "type": "eng_lang",
+            "question": "The report is ....... to show better than expected results.",
+            "answers": [
+                "likely",
+                "necessary",
+                "possibly",
+                "clearly"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-e"
+        },
+        {
+            "type": "eng_lang",
+            "question": "So many of these animals have been shot over the years that they are now classed as ....... species.",
+            "answers": [
+                "dangerous",
+                "endangered",
+                "unwanted",
+                "limited"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-f"
+        },
+        {
+            "type": "eng_lang",
+            "question": "Some people are ....... to learn a foreign language.",
+            "answers": [
+                "inhibited",
+                "reluctant",
+                "shy",
+                "unaccustomed"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-g"
+        },
+        {
+            "type": "eng_lang",
+            "question": "Which 2-syllable word has a different stress pattern from the others?",
+            "answers": [
+                "police",
+                "mother",
+                "student",
+                "money"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-a"
+        },
+        {
+            "type": "eng_lang",
+            "question": "Which 2-syllable word has a different stress pattern from the others?",
+            "answers": [
+                "career",
+                "shampoo",
+                "balloon",
+                "problem"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-b"
+        },
+        {
+            "type": "eng_lang",
+            "question": "Which 3-syllable word has a different stress pattern from the others?",
+            "answers": [
+                "cinema",
+                "Saturday",
+                "Umbrella",
+                "manager"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-c"
+        },
+        {
+            "type": "eng_lang",
+            "question": "Which 3-syllable word has a different stress pattern from the others?",
+            "answers": [
+                "potato",
+                "paragraph",
+                "computer",
+                "professor"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-d"
+        },
+        {
+            "type": "eng_lang",
+            "question": "Which of these adjectives beginning with ‘un’ or ‘in’ has the stress on the final syllable?",
+            "answers": [
+                "informal",
+                "unhappy",
+                "unfriendly",
+                "unemployed"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-e"
+        },
+        {
+            "type": "eng_lang",
+            "question": "In which sentence does the speaker want to tell us that John’s car is not second hand?",
+            "answers": [
+                "<b>John’s</b> bought a new car",
+                "John’s <b>bought</b> a new car",
+                "John’s bought a <b>new</b> car",
+                "John’s bought a new <b>car</b>"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-f"
+        },
+        {
+            "type": "eng_lang",
+            "question": "Which poly-syllabic word has a different stress pattern from the others?",
+            "answers": [
+                "Contamination",
+                "Deliverable",
+                "Persuasion",
+                "Sensitization"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-g"
+        },
+        {
+            "type": "big_bumper",
+            "question": "Big Bumper Question!",
+            "answers": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cor_ans_idx": 4,
+            "team_id": "team-all"
+        },
+        {
+            "type": "sports",
+            "question": "Which football player is famous for his 1986 'Hand of God'?",
+            "answers": [
+                "Pele",
+                "Diego Maradona",
+                "Peter Shelton",
+                "Ronaldo"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-a"
+        },
+        {
+            "type": "sports",
+            "question": "Who is the only player to score a hat-trick in a World Cup Final?",
+            "answers": [
+                "Lionel Messi",
+                "Steven Gerrard",
+                "Geoff Hurst",
+                "Ibrahimovic"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-b"
+        },
+        {
+            "type": "sports",
+            "question": "Who beat Ivan Lendl in a French Open final using underhand serves?",
+            "answers": [
+                "Novac Djokovic",
+                "Roger Federer",
+                "Rafael Nadal",
+                "Michael Chang"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-c"
+        },
+        {
+            "type": "sports",
+            "question": "Who is the only wild card entrant to have won Wimbledon?",
+            "answers": [
+                "Novac Djokovic",
+                "David Ferrer",
+                "Rafael Nadal",
+                "Goran Ivanišević"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-d"
+        },
+        {
+            "type": "sports",
+            "question": "Between which two spanish clubs, 'El Clásico' is played? ",
+            "answers": [
+                "Atletico Madrid & Real Madrid",
+                "Sevilla & Barcelona",
+                "Sevilla & Gedafe",
+                "Real Madrid & Barcelona"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-e"
+        },
+        {
+            "type": "sports",
+            "question": "Which German won the World Cup as both a player and a manager?",
+            "answers": [
+                "Mirsolav Klose",
+                "Mario Goetze",
+                "Thomas Muller",
+                "Franz Beckenbauer"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-f"
+        },
+        {
+            "type": "sports",
+            "question": "Name the oldest goalscorer in World Cup history?",
+            "answers": [
+                "Pele",
+                "Diego Maradona",
+                "Roger Milla",
+                "Wayne Rooney"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-g"
+        },
+        {
+            "type": "sports",
+            "question": "How many countries have hosted the football world cup twice?",
+            "answers": [
+                "Four",
+                "Three",
+                "Eight",
+                "Five"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-a"
+        },
+        {
+            "type": "sports",
+            "question": "How many goals did Holland score against Spain in their 2014 group match?",
+            "answers": [
+                "Five",
+                "Four",
+                "Six",
+                "Two"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-b"
+        },
+        {
+            "type": "sports",
+            "question": "Which player won the 2002 World Cup and also finished top scorer?",
+            "answers": [
+                "Ronaldo",
+                "Messi",
+                "Ibrahimovic",
+                "Gerrard"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-c"
+        },
+        {
+            "type": "sports",
+            "question": "Which country hosted the 2010 Football World Cup?",
+            "answers": [
+                "U.S.A.",
+                "Russia",
+                "South Africa",
+                "England"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-d"
+        },
+        {
+            "type": "sports",
+            "question": "Which Argentinian star got to wear the No 10 jersey after the retirement of Maradona from the Argentinian squad?",
+            "answers": [
+                "Jonas Guitterez",
+                "Eric Lamela",
+                "Lionel Messi",
+                "Pablo Zabaleta"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-e"
+        },
+        {
+            "type": "sports",
+            "question": "'Durand Cup' is associated with the game of?",
+            "answers": [
+                "Hockey",
+                "Lawn Tennis",
+                "Badminton",
+                "Football"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-f"
+        },
+        {
+            "type": "sports",
+            "question": "Which club did Sir Alex Ferguson call 'a small club, with a small mentality' in 2009?",
+            "answers": [
+                "Sunderland",
+                "Arsenal",
+                "Manchester City",
+                "Liverpool"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-g"
+        },
+        {
+            "type": "big_bumper",
+            "question": "Big Bumper Question!",
+            "answers": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cor_ans_idx": 4,
+            "team_id": "team-all"
+        },
+
+        {
+            "type": "gk",
+            "question": "The country’s largest bike company “Hero Moto Corporation” had inked a four-year endorsement deal with ace golfer for Rs 250 crore, Name the Golf player?",
+            "answers": [
+                "RORY MCILROY",
+                "PHIL MICKELSON",
+                "TIGER WOODS",
+                "JACK NICKLAUS"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-a"
+        },
+        {
+            "type": "gk",
+            "question": "Recently, which one of the following social networking sites offered five students of IIT-Bombay with the highest package 1.42 crore?",
+            "answers": [
+                "FACEBOOK.COM",
+                "GOOGLE.COM",
+                "TWITTER.COM",
+                "LINKEDIN.COM"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-b"
+        },
+        {
+            "type": "gk",
+            "question": "Which among the following companies got the world’s first remote-controlled airport?",
+            "answers": [
+                "SWITZERLAND",
+                "IRELAND",
+                "BRAZIL",
+                "SWEDEN"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-c"
+        },
+        {
+            "type": "gk",
+            "question": "Who was crowned the Yamaha Miss Diva Universe 2014 on the 19th of October 2014?",
+            "answers": [
+                "NOYONITA LODH",
+                "MARITA LINDAHL",
+                "CAROLE CRAWFORD",
+                "REITA FARIA"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-d"
+        },
+        {
+            "type": "gk",
+            "question": "Which one of the following Bollywood films became the highest grossing foreign films of 2013 in Australia?",
+            "answers": [
+                "YE JAWANI HAI DEEWANI",
+                "KRISH 3",
+                "CHENNAI EXPRESS",
+                "DHOOM 3"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-e"
+        },
+        {
+            "type": "gk",
+            "question": "Name the two countries that had agreed on a Nuclear-deal in New Delhi on 14th October 2014?",
+            "answers": [
+                "INDIA AND JAPAN",
+                "CHINA AND CANADA",
+                "PAKISTAN AND INDIA",
+                "INDIA AND CANADA"
+            ],
+            "cor_ans_idx": 3,
+            "team_id": "team-f"
+        },
+        {
+            "type": "gk",
+            "question": "Name the vegetable that is said to improve symptoms of autism?",
+            "answers": [
+                "BRINJAL",
+                "BROCCOLI",
+                "BITTER GUARD",
+                "PUMPKIN"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-g"
+        },
+        {
+            "type": "big_bumper",
+            "question": "Big Bumper Question!",
+            "answers": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cor_ans_idx": 4,
+            "team_id": "team-all"
+        },
+
+        {
+            "type": "cur_aff",
+            "question": "Recently, which one of the following countries launched ''super priority'' visas for 7 countries?",
+            "answers": [
+                "U.S.A.",
+                "CHINA",
+                "U.K.",
+                "AUSTRALIA"
+            ],
+            "cor_ans_idx": 2,
+            "team_id": "team-a"
+        },
+        {
+            "type": "cur_aff",
+            "question": "Which two telecom companies signed a Rs 700-crore deal in November 2014?",
+            "answers": [
+                "IDEA AND LOOP",
+                "AIRTEL AND LOOP",
+                "AIRCEL AND AIRTEL",
+                "TATA INDICOM AND VODAFONE"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-b"
+        },
+        {
+            "type": "cur_aff",
+            "question": "Name of Indian third navigation satellite that was launched by Indian Space Research Organization on 16th October 2014?",
+            "answers": [
+                "IRNSS 1C SATELLITE",
+                "RISAT-2",
+                "INSAT-3A",
+                "BHASKARA-I"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-c"
+        },
+        {
+            "type": "cur_aff",
+            "question": "Which among the following countries sentenced two members of a banned religious cult to death for the murder of a woman in a McDonald's restaurant?",
+            "answers": [
+                "PAKISTAN",
+                "CHINA",
+                "INDIA",
+                "NEPAL"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-d"
+        },
+        {
+            "type": "cur_aff",
+            "question": "Name the Bollywood Movie that became the most successful Hindi film in Kerala in October 2014?",
+            "answers": [
+                "KILL DILL",
+                "BANG BANG",
+                "HAIDER",
+                "ACTION JACKSON"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-e"
+        },
+        {
+            "type": "cur_aff",
+            "question": "Who has been named the most dangerous British celebrity on the web by McAfee?",
+            "answers": [
+                "CHERYL COLE",
+                "KIMBERLEY WALSH",
+                "CHER LLOYD",
+                "MELANIE BROWN"
+            ],
+            "cor_ans_idx": 0,
+            "team_id": "team-f"
+        },
+        {
+            "type": "cur_aff",
+            "question": "Name the Indian actor, who received the Global Diversity Award 2014 by the British parliament for his contribution to cinema on the 4th of October 2014?",
+            "answers": [
+                "SALMAN KHAN",
+                "SHAHRUKH KHAN",
+                "ABHISHEK BACHCHAN",
+                "AKSHAY KUMAR"
+            ],
+            "cor_ans_idx": 1,
+            "team_id": "team-g"
+        },
+        {
+            "type": "big_bumper",
+            "question": "Big Bumper Question!",
+            "answers": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cor_ans_idx": 4,
+            "team_id": "team-all"
+        }
+    ]
+}
