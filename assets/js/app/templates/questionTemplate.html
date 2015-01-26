@@ -1,19 +1,19 @@
     <% var quesTypeArr = [
       {
         id: "eng_lang",
-        name: "ENGLISH LANGUAGE SECTION"
+        name: "ENGLISH LANGUAGE"
       },
       {
         id: "sports",
-        name: "SPORTS SECTION"
+        name: "SPORTS"
       },
       {
         id: "gk",
-        name: "GENERAL KNOWLEDGE SECTION"
+        name: "GENERAL KNOWLEDGE"
       },
       {
         id: "cur_aff",
-        name: "CURRENT AFFAIRS SECTION"
+        name: "CURRENT AFFAIRS"
       },
       {
       	id: "big_bumper",
@@ -26,7 +26,7 @@
 
 <div class="question">
   <header class="page-header content-header">
-    <button type="button" id="enableAnswers" class="btn btn-default btn-lg enable-answers"><span class="glyphicon glyphicon-share-alt"></span></button>
+    <button type="button" id="enableAnswers" data-toggle="tooltip" data-placement="top" title="Show Answers" class="btn btn-default btn-lg enable-answers"><span class="glyphicon glyphicon-share-alt"></span></button>
 	<h3><%=titleArr[0].name%></h3>
   </header>
   <p class="lead bold text-center"><%=obj.question%></p>
