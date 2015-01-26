@@ -1,0 +1,35 @@
+<div class="site-wrapper">
+  <div class="cover-container">
+    <header class="masthead clearfix">
+	  <div class="inner">
+	    <h3 class="masthead-brand">Demo Quiz</h3>
+	    <div class="clock-wrapper">
+	      <div class='clock'></div>
+	    </div>
+		<ul class="nav masthead-nav">
+		</ul>
+	  </div>
+	</header>
+	
+	<div class="inner cover">
+	  <div class="row teams-wrap">
+	    <% _.each(obj.teams, function (team, idx) { %>
+		  <div id="<%=team.id%>" class="col-md-2 team">
+		    <div class="thumbnail">
+			  <div class="caption">
+			    <h5><%=team.abbr%></h5>
+			    <p><span class="label label-default score">0</p>
+			  </div>
+		    </div>
+		  </div>
+		<% }) %>
+	  </div>
+	</div>
+	
+	<div class="cover">
+	  <div class="jumbotron quiz-content">
+	  </div>
+	</div>
+	
+  </div>
+</div>

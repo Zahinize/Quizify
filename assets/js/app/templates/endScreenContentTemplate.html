@@ -1,0 +1,54 @@
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingOne">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Winners
+      </a>
+    </h4>
+  </div>
+  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+    <div class="panel-body">
+
+      <div class="row teams-wrap">
+        <% _.each(obj.winners, function (team, idx) { %>
+        <div id="<%=team.id%>" class="col-md-5 team">
+          <div class="thumbnail">
+          <div class="caption">
+            <h5><%=team.name%></h5>
+            <p><span class="label label-default score"><%=team.score%></p>
+          </div>
+          </div>
+        </div>
+      <% }) %>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingTwo">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Score Details
+      </a>
+    </h4>
+  </div>
+  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+    <div class="panel-body">
+
+      <div class="row teams-wrap">
+        <% _.each(obj.teams, function (team, idx) { %>
+        <div id="<%=team.id%>" class="col-md-2 team">
+          <div class="thumbnail">
+          <div class="caption">
+            <h5><%=team.abbr%></h5>
+            <p><span class="label label-default score"><%=team.score%></p>
+          </div>
+          </div>
+        </div>
+      <% }) %>
+      </div>
+
+    </div>
+  </div>
+</div>

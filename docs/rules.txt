@@ -1,0 +1,48 @@
+*************Excelsoft Quiz*****************
+
+Categories:
+	- English Language
+	- Pictures
+	- Sports
+	- General Knowledge
+	- Current Affairs
+
+Quiz Structure:
+	5 teams per match: A, B, C, D & E
+
+	5 Sections: 
+
+		1. English Language (5 Questions per team) - 25 total Ques. - +20 or 0 points - 30 secs
+		
+			- Big Bumper Question: 1 Ques. - +50 or -25 points - voluntary
+		
+		2. Pictures (2 Questions per team) - 10 total Ques. - +10 or 0 points - 30 secs
+		
+			- Big Bumper Question: 1 Ques. - +50 or -25 points - voluntary
+		
+		3. Sports (2 Questions per team) - 10 total Ques. - +10 or 0 points - 30 secs
+		
+			- Big Bumper Question: 1 Ques. - +50 or -25 points - voluntary
+		
+		4. General Knowledge (2 Questions per team) - 10 total Ques. - +10 or 0 points - 30 secs
+		
+			- Big Bumper Question: 1 Ques. - +50 or -25 points - voluntary
+		
+		5. Current Affairs (2 Questions per team) - 10 total Ques. - +10 or 0 points - 30 secs
+
+			- Big Bumper Question: 1 Ques. - +50 or -25 points - voluntary
+
+
+Total:
+
+	- Total Questions to be asked: 70
+	- Max points to be gained: 430
+	- Minimum points to be gained: < 0
+
+Rules:
+
+	- Only one winner will qualify for next round in League matches.
+	- There will be one winner and one runner's up team in final matches
+	- In case of a tie, a Super Quiz Wizard round will be organised and one chosen member from each team 
+	  will have to give more correct answers of 5 questions than other to win
+	  
